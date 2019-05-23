@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            style="@style/ArticleParent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="New"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="Popular"/>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ArticleCardFeatured">
+
+                <ImageView
+                    style="@style/ArticleCardFeaturedImage"
+                    app:srcCompat="@mipmap/article1" />
+                <LinearLayout
+                    style="@style/ArticleCardAvatarBox">
+                    <ImageView
+                        style="@style/ArticleCardAvatarBoxImage"
+                        android:src="@mipmap/author"/>
+                    <TextView
+                        style="@style/ArticleCardAvatarBoxName"
+                        android:text="John Doe"/>
+                    <RelativeLayout
+                        style="@style/ArticleCardAvatarBoxDate">
+                        <TextView
+                            style="@style/ArticleCardAvatarBoxDateText"
+                            android:text="2 days ago"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+                <TextView
+                    style="@style/ArticleCardFeaturedTitle"
+                    android:text="Lorem ipsum dolor sit amet"/>
+
+                <TextView
+                    style="@style/ArticleCardFeaturedDescription"
+                    android:text="Vivamus et scelerisque nisi. Donec at sapien luctus, tristique lorem non, placerat erat. Integer tincidunt lacus id ullamcorper porttitor.  " />
+
+                <LinearLayout
+                    style="@style/ArticleCardAvatarBox">
+                    <ImageView
+                        style="@style/ArticleCardAvatarBoxImage"
+                        android:src="@mipmap/like"/>
+                    <TextView
+                        style="@style/ArticleCardAvatarBoxName"
+                        android:text="123"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ArticleRow">
+
+                <LinearLayout
+                    style="@style/ArticleCard">
+
+                    <ImageView
+                        style="@style/ArticleCardImage"
+                        app:srcCompat="@mipmap/article2" />
+                    <LinearLayout
+                        style="@style/ArticleCardAvatarBox">
+                        <ImageView
+                            style="@style/ArticleCardAvatarBoxImage"
+                            android:src="@mipmap/author"/>
+                        <TextView
+                            style="@style/ArticleCardAvatarBoxName"
+                            android:text="John Doe"/>
+
+                    </LinearLayout>
+                    <TextView
+                        style="@style/ArticleCardTitle"
+                        android:text="Lorem ipsum" />
+
+                    <TextView
+                        style="@style/ArticleCardDescription"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/ArticleCard">
+
+                    <ImageView
+                        style="@style/ArticleCardImage"
+                        app:srcCompat="@mipmap/article3" />
+                    <LinearLayout
+                        style="@style/ArticleCardAvatarBox">
+                        <ImageView
+                            style="@style/ArticleCardAvatarBoxImage"
+                            android:src="@mipmap/author"/>
+                        <TextView
+                            style="@style/ArticleCardAvatarBoxName"
+                            android:text="John Doe"/>
+                    </LinearLayout>
+                    <TextView
+                        style="@style/ArticleCardTitle"
+                        android:text="sdfsdfdsf" />
+
+                    <TextView
+                        style="@style/ArticleCardDescription"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ArticleRow">
+
+                <LinearLayout
+                    style="@style/ArticleCard">
+
+                    <ImageView
+                        style="@style/ArticleCardImage"
+                        app:srcCompat="@mipmap/article2" />
+                    <LinearLayout
+                        style="@style/ArticleCardAvatarBox">
+                        <ImageView
+                            style="@style/ArticleCardAvatarBoxImage"
+                            android:src="@mipmap/author"/>
+                        <TextView
+                            style="@style/ArticleCardAvatarBoxName"
+                            android:text="John Doe"/>
+                    </LinearLayout>
+                    <TextView
+                        style="@style/ArticleCardTitle"
+                        android:text="Lorem ipsum" />
+
+                    <TextView
+                        style="@style/ArticleCardDescription"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/ArticleCard">
+
+                    <ImageView
+                        style="@style/ArticleCardImage"
+                        app:srcCompat="@mipmap/article3" />
+                    <LinearLayout
+                        style="@style/ArticleCardAvatarBox">
+                        <ImageView
+                            style="@style/ArticleCardAvatarBoxImage"
+                            android:src="@mipmap/author"/>
+                        <TextView
+                            style="@style/ArticleCardAvatarBoxName"
+                            android:text="John Doe"/>
+                    </LinearLayout>
+                    <TextView
+                        style="@style/ArticleCardTitle"
+                        android:text="sdfsdfdsf" />
+
+                    <TextView
+                        style="@style/ArticleCardDescription"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
