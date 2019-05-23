@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArticleActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@mipmap/article1"/>
+
+            <LinearLayout
+                style="@style/ArticleCardAvatarBox"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp">
+                <ImageView
+                    style="@style/ArticleCardAvatarBoxImage"
+                    android:src="@mipmap/author"/>
+                <TextView
+                    style="@style/ArticleCardAvatarBoxName"
+                    android:text="John Doe"/>
+                <RelativeLayout
+                    style="@style/ArticleCardAvatarBoxDate">
+                    <TextView
+                        style="@style/ArticleCardAvatarBoxDateText"
+                        android:text="2 days ago"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+            <TextView
+                style="@style/ArticleCardFeaturedTitle"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Lorem ipsum dolor sit amet"/>
+
+            <TextView
+                style="@style/ArticleCardFeaturedDescription"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec justo urna, ornare venenatis lacinia et, porttitor sed metus. Ut feugiat sem erat, ac eleifend felis malesuada quis. Suspendisse eleifend rutrum quam, eget porttitor magna pellentesque ut. Donec sed dui odio. Maecenas interdum rutrum sodales. Mauris risus orci, maximus posuere efficitur at, bibendum vel velit. Praesent fermentum nulla a urna viverra, quis volutpat mi consequat. Nulla eget luctus ligula, in fringilla orci. Curabitur ac sapien dui. Donec condimentum vel est quis pulvinar. Etiam dui massa, finibus auctor augue ac, porta tincidunt turpis. Fusce in nulla in metus hendrerit iaculis eget viverra nisi. Morbi a mauris pharetra, ullamcorper nisi ac, malesuada magna.
+
+Nulla ultrices dolor ac ipsum rutrum, in malesuada nisi blandit. In imperdiet dolor vel lorem efficitur venenatis. Duis nisi purus, cursus id elementum id, scelerisque at risus. In hac habitasse platea dictumst. Aenean pellentesque efficitur turpis, aliquam vehicula nisi congue et. Etiam purus arcu, dictum a pellentesque et, tristique eu libero. Curabitur dui enim, posuere eu mauris nec, pharetra consequat nulla. Vivamus eu faucibus enim, id volutpat dui. Fusce posuere lobortis mauris.
+
+Phasellus et consectetur dui. Pellentesque at augue at ligula consequat maximus. Ut libero est, venenatis eget suscipit sed, porta vel velit. Vivamus lacus ligula, faucibus lobortis ligula ac, consectetur consequat dui. Donec iaculis ante ut metus vestibulum, a imperdiet massa tempus. Etiam aliquet, libero nec rutrum suscipit, tellus lorem ultrices nunc, ut pellentesque arcu justo ut mauris. Mauris in maximus sem. Nulla sagittis pharetra consectetur. Fusce accumsan ipsum lorem, in molestie est pretium eget. Etiam quis porta ipsum. Praesent nec augue ligula. Aenean et lectus ultrices, molestie lectus nec, blandit erat.
+
+Pellentesque mollis eleifend sem sed mattis. Duis aliquam, nisi at pretium tincidunt, ex elit molestie metus, sed gravida sapien nibh quis purus. Quisque rutrum sapien et magna hendrerit, et ornare enim accumsan. Sed in neque in ante tempus accumsan nec ut massa. Ut dapibus, risus ut tristique mattis, ipsum dui fringilla nisi, ut tempus diam nisi sit amet massa. Nulla consectetur enim non dolor aliquam placerat. Cras varius velit ut elit imperdiet, vitae pellentesque justo hendrerit. Proin ullamcorper porttitor neque ut sagittis. Fusce a felis justo. Etiam quis luctus erat, eget suscipit nisl. Vestibulum mattis orci congue urna dictum pellentesque. Nam non lorem in dui consectetur rhoncus. Nullam in vehicula urna. Aenean scelerisque commodo eleifend. Morbi efficitur egestas sem, id lacinia libero.
+
+Quisque hendrerit elit non elit ultricies, vel auctor sem elementum. Pellentesque sollicitudin purus sed tempor auctor. Nullam malesuada rutrum leo. Sed id augue imperdiet, sagittis felis vel, posuere lectus. Nunc sed lectus quam. Vivamus aliquet, erat ac suscipit elementum, tellus dui gravida sapien, facilisis commodo nulla purus at purus. Vivamus tristique arcu eu neque ultricies euismod. Vestibulum vestibulum convallis fringilla. Quisque lacinia libero mi. Aliquam commodo justo in nunc pharetra rutrum. Fusce varius, enim at vehicula fringilla, quam nisl congue massa, quis viverra mauris purus sed lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin quis mauris tincidunt, sollicitudin magna ut, dapibus mauris. In ut tortor vel enim egestas consequat et nec nulla. Aliquam suscipit turpis id faucibus tempor. Morbi nec consequat lectus, quis dictum massa." />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

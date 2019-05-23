@@ -36,6 +36,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/featuredArticle"
                 style="@style/ArticleCardFeatured">
 
                 <ImageView
