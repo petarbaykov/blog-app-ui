@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ArticlesActivity">
 
 
     <ScrollView
@@ -18,7 +18,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
 
-            <LinearLayout
+            <!--<LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -33,7 +33,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="5"
                     android:text="Popular"/>
-            </LinearLayout>
+            </LinearLayout>-->
 
             <LinearLayout
                 android:id="@+id/featuredArticle"
@@ -60,11 +60,11 @@
                 </LinearLayout>
                 <TextView
                     style="@style/ArticleCardFeaturedTitle"
-                    android:text="Lorem ipsum dolor sit amet"/>
+                    android:text="Not Again! Say It’s Not True!"/>
 
                 <TextView
                     style="@style/ArticleCardFeaturedDescription"
-                    android:text="Vivamus et scelerisque nisi. Donec at sapien luctus, tristique lorem non, placerat erat. Integer tincidunt lacus id ullamcorper porttitor.  " />
+                    android:text="I don’t even know where to begin. The good or the bad. Let’s start with the good...better way to begin the day. “Start Your Engines!” Set your time machine to Wednesday, May 22nd...  " />
 
                 <LinearLayout
                     style="@style/ArticleCardAvatarBox">
@@ -99,11 +99,11 @@
                     </LinearLayout>
                     <TextView
                         style="@style/ArticleCardTitle"
-                        android:text="Lorem ipsum" />
+                        android:text="We made it to Manitoba" />
 
                     <TextView
                         style="@style/ArticleCardDescription"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
+                        android:text="Tuesday 21st May 2019 We left Quetico this morning in glorious sunshine, prepared for a long drive..." />
 
                 </LinearLayout>
 
@@ -124,11 +124,11 @@
                     </LinearLayout>
                     <TextView
                         style="@style/ArticleCardTitle"
-                        android:text="sdfsdfdsf" />
+                        android:text="Reconnecting with Korea" />
 
                     <TextView
                         style="@style/ArticleCardDescription"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+                        android:text="Ah Korea, my old friend. As we approached the runway at Gimpo Airport, flying low over the Nakdong Estuary.."/>
 
                 </LinearLayout>
 
@@ -142,7 +142,7 @@
 
                     <ImageView
                         style="@style/ArticleCardImage"
-                        app:srcCompat="@mipmap/article2" />
+                        app:srcCompat="@mipmap/travel" />
                     <LinearLayout
                         style="@style/ArticleCardAvatarBox">
                         <ImageView
@@ -154,11 +154,11 @@
                     </LinearLayout>
                     <TextView
                         style="@style/ArticleCardTitle"
-                        android:text="Lorem ipsum" />
+                        android:text="An Intriguing Alternative" />
 
                     <TextView
                         style="@style/ArticleCardDescription"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
+                        android:text="When most think of a romantic, exotic, French-influenced, North African getaway..." />
 
                 </LinearLayout>
 
@@ -167,7 +167,7 @@
 
                     <ImageView
                         style="@style/ArticleCardImage"
-                        app:srcCompat="@mipmap/article3" />
+                        app:srcCompat="@mipmap/article4" />
                     <LinearLayout
                         style="@style/ArticleCardAvatarBox">
                         <ImageView
@@ -179,11 +179,11 @@
                     </LinearLayout>
                     <TextView
                         style="@style/ArticleCardTitle"
-                        android:text="sdfsdfdsf" />
+                        android:text="Trekking through the Typhoon" />
 
                     <TextView
                         style="@style/ArticleCardDescription"
-                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit"/>
+                        android:text="Hello my fellow travellers! I slept well last night despite the storm raging outside..."/>
 
                 </LinearLayout>
 

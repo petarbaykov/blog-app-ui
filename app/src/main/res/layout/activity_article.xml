@@ -18,12 +18,13 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
-                android:src="@mipmap/article1"/>
+                android:src="@mipmap/article1"
+                android:layout_marginTop="-8dp"/>
 
             <LinearLayout
                 style="@style/ArticleCardAvatarBox"
-                android:paddingLeft="30dp"
-                android:paddingRight="30dp">
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp">
                 <ImageView
                     style="@style/ArticleCardAvatarBoxImage"
                     android:src="@mipmap/author"/>
@@ -40,14 +41,16 @@
             </LinearLayout>
             <TextView
                 style="@style/ArticleCardFeaturedTitle"
-                android:paddingLeft="30dp"
-                android:paddingRight="30dp"
-                android:text="Lorem ipsum dolor sit amet"/>
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Not Again! Say It’s Not True!"/>
 
             <TextView
                 style="@style/ArticleCardFeaturedDescription"
-                android:paddingLeft="30dp"
-                android:paddingRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:lineSpacingMultiplier="1.2"
+                android:lineSpacingExtra="6dp"
                 android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec justo urna, ornare venenatis lacinia et, porttitor sed metus. Ut feugiat sem erat, ac eleifend felis malesuada quis. Suspendisse eleifend rutrum quam, eget porttitor magna pellentesque ut. Donec sed dui odio. Maecenas interdum rutrum sodales. Mauris risus orci, maximus posuere efficitur at, bibendum vel velit. Praesent fermentum nulla a urna viverra, quis volutpat mi consequat. Nulla eget luctus ligula, in fringilla orci. Curabitur ac sapien dui. Donec condimentum vel est quis pulvinar. Etiam dui massa, finibus auctor augue ac, porta tincidunt turpis. Fusce in nulla in metus hendrerit iaculis eget viverra nisi. Morbi a mauris pharetra, ullamcorper nisi ac, malesuada magna.
 
 Nulla ultrices dolor ac ipsum rutrum, in malesuada nisi blandit. In imperdiet dolor vel lorem efficitur venenatis. Duis nisi purus, cursus id elementum id, scelerisque at risus. In hac habitasse platea dictumst. Aenean pellentesque efficitur turpis, aliquam vehicula nisi congue et. Etiam purus arcu, dictum a pellentesque et, tristique eu libero. Curabitur dui enim, posuere eu mauris nec, pharetra consequat nulla. Vivamus eu faucibus enim, id volutpat dui. Fusce posuere lobortis mauris.
